@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import PageTemplate from './PageTemplate';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <PageTemplate />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
